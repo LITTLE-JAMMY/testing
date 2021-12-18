@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 1px 5px #464646;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 34%;
+    float: left;
+}
+.nav {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.nav a{
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.nav #contact{
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #699BF7;
+    color: #FAF3F3;
+    border-radius: 10px;
+    align-items: center;
+}
+#home, #skills, #projects {
+    color : #3F3F3F;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 33px;
+
+}
+#name {
+    color: #3F3F3F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}
+#dev {
+    color: #1C6CEF;
+    
+}
+.nav #contact:hover {
+    background-color: #FAF3F3;
+    color: #699BF7;
+}
